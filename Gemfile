@@ -49,3 +49,5 @@ end
 # for finishing treehouse issue...
 
 gem 'protected_attributes'
+
+gem 'simple_form'
