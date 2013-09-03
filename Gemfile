@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '~> 4.0.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -26,6 +26,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+#gem 'jbuilder', '~> 1.2'
 gem 'jbuilder', '~> 1.2'
 
 group :doc do
@@ -44,3 +45,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# for finishing treehouse issue...
+
+gem 'protected_attributes'
